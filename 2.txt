@@ -1,0 +1,18 @@
+# Escreva um algoritmo que leia horas, minutos e segundos do teclado e apresente o tempo total em segundos.
+ALGORITMO tempo_em_segundos
+VAR:
+    INTEIRO: horas, minutos, segundos, resultado;
+INICIO
+    ESCREVA("Informe a quantidade de horas: ");
+    LEIA(horas);
+
+    ESCREVA("Informe a quantidade de minutos: ");
+    LEIA(minutos);
+
+    ESCREVA("Informe a quantidade de segundos: ");
+    LEIA(segundos);
+
+    resultado <- horas * 3600 + minutos * 60 + segundos;
+
+    ESCREVA("O resultado em segundos é ", resultado);
+FIM

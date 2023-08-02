@@ -1,0 +1,14 @@
+# Escreva um algoritmo que leia um número inteiro e apresente o seu antecessor e o seu sucessor
+ALGORITMO antecessor_e_sucessor
+VAR
+    INTEIRO: numero, sucessor, antecessor;
+INICIO
+    ESCREVA("Informe o número: ");
+    LEIA(numero);
+
+    sucessor <- numero + 1;
+    antecessor <- numero - 1;
+
+    ESCREVA("O sucessor é ", sucessor);
+    ESCREVA("O antecessor é ", antecessor);
+FIM
